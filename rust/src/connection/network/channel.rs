@@ -17,7 +17,10 @@
  * under the License.
  */
 
-use std::sync::{Arc, RwLock};
+use std::{
+    sync::{Arc, RwLock},
+    time::Duration,
+};
 
 use tonic::{
     body::BoxBody,
@@ -49,8 +52,10 @@ impl GRPCChannel for PlainTextChannel {}
 
 impl GRPCChannel for CallCredChannel {}
 
+const TIMEOUT: Duration = Duration::from_secs(60);
+
 pub(super) fn open_plaintext_channel(address: Address) -> PlainTextChannel {
-    PlainTextChannel::new(Channel::builder(address.into_uri()).connect_lazy(), PlainTextFacade)
+    PlainTextChannel::new(Channel::builder(address.into_uri()).timeout(TIMEOUT).connect_lazy(), PlainTextFacade)
 }
 
 #[derive(Clone, Debug)]
@@ -66,7 +71,7 @@ pub(super) fn open_callcred_channel(
     address: Address,
     credential: Credential,
 ) -> Result<(CallCredChannel, Arc<CallCredentials>)> {
-    let mut builder = Channel::builder(address.into_uri());
+    let mut builder = Channel::builder(address.into_uri()).timeout(TIMEOUT);
     if credential.is_tls_enabled() {
         builder = builder.tls_config(credential.tls_config().clone().unwrap())?;
     }

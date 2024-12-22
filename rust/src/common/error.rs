@@ -74,6 +74,8 @@ error_messages! { ConnectionError
         23: "Invalid URL '{address}': missing port.",
     AddressTranslationMismatch { unknown: HashSet<Address>, unmapped: HashSet<Address> } =
         24: "Address translation map does not match the server's advertised address list. User-provided servers not in the advertised list: {unknown:?}. Advertised servers not mapped by user: {unmapped:?}.",
+    ConnectionTimedOut =
+        25: "Connection to the server timed out."
 }
 
 error_messages! { InternalError
@@ -196,6 +198,8 @@ impl From<Status> for Error {
             Self::Connection(ConnectionError::ServerConnectionFailedStatusError { error: status.message().to_owned() })
         } else if status.code() == Code::Unimplemented {
             Self::Connection(ConnectionError::RPCMethodUnavailable { message: status.message().to_owned() })
+        } else if status.code() == Code::Cancelled && status.message() == "Timeout expired" {
+            Self::Connection(ConnectionError::ConnectionTimedOut)
         } else {
             Self::from_message(status.message())
         }

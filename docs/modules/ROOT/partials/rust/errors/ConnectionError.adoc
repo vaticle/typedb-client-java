@@ -17,6 +17,7 @@ a| `CloudSSLCertificateNotValidated`
 a| `CloudTokenCredentialInvalid`
 a| `ConnectionFailed`
 a| `ConnectionIsClosed`
+a| `ConnectionTimedOut`
 a| `DatabaseDoesNotExist`
 a| `InvalidResponseField`
 a| `MissingPort`
