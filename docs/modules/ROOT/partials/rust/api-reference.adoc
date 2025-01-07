@@ -2,130 +2,130 @@
 [#_connection_header]
 == Connection
 
-include::api-ref::partial$rust/connection/Connection.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/Connection.adoc[]
 
-include::api-ref::partial$rust/connection/Credential.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/Credential.adoc[]
 
-include::api-ref::partial$rust/connection/DatabaseManager.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/DatabaseManager.adoc[]
 
-include::api-ref::partial$rust/connection/Database.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/Database.adoc[]
 
-include::api-ref::partial$rust/connection/ReplicaInfo.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/ReplicaInfo.adoc[]
 
-include::api-ref::partial$rust/connection/UserManager.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/UserManager.adoc[]
 
-include::api-ref::partial$rust/connection/User.adoc[]
+include::{page-component-version}@api-ref::partial$rust/connection/User.adoc[]
 
 [#_session_header]
 == Session
 
-include::api-ref::partial$rust/session/Session.adoc[]
+include::{page-component-version}@api-ref::partial$rust/session/Session.adoc[]
 
-include::api-ref::partial$rust/session/SessionType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/session/SessionType.adoc[]
 
-include::api-ref::partial$rust/session/Options.adoc[]
+include::{page-component-version}@api-ref::partial$rust/session/Options.adoc[]
 
 [#_transaction_header]
 == Transaction
 
-include::api-ref::partial$rust/transaction/Transaction.adoc[]
+include::{page-component-version}@api-ref::partial$rust/transaction/Transaction.adoc[]
 
-include::api-ref::partial$rust/transaction/TransactionType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/transaction/TransactionType.adoc[]
 
-include::api-ref::partial$rust/transaction/QueryManager.adoc[]
+include::{page-component-version}@api-ref::partial$rust/transaction/QueryManager.adoc[]
 
 [#_answer_header]
 == Answer
 
-include::api-ref::partial$rust/answer/ConceptMapGroup.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/ConceptMapGroup.adoc[]
 
-include::api-ref::partial$rust/answer/ConceptMap.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/ConceptMap.adoc[]
 
-include::api-ref::partial$rust/answer/ValueGroup.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/ValueGroup.adoc[]
 
-include::api-ref::partial$rust/answer/JSON.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/JSON.adoc[]
 
-include::api-ref::partial$rust/answer/Trait_Promise.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/Trait_Promise.adoc[]
 
-include::api-ref::partial$rust/answer/Explainables.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/Explainables.adoc[]
 
-include::api-ref::partial$rust/answer/Explainable.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/Explainable.adoc[]
 
-include::api-ref::partial$rust/answer/Explanation.adoc[]
+include::{page-component-version}@api-ref::partial$rust/answer/Explanation.adoc[]
 
 [#_concept_header]
 == Concept
 
-include::api-ref::partial$rust/concept/ConceptManager.adoc[]
+include::{page-component-version}@api-ref::partial$rust/concept/ConceptManager.adoc[]
 
-include::api-ref::partial$rust/concept/Concept.adoc[]
+include::{page-component-version}@api-ref::partial$rust/concept/Concept.adoc[]
 
 [#_schema_header]
 == Schema
 
-//include::api-ref::partial$rust/schema/Type.adoc[]
+//include::{page-component-version}@api-ref::partial$rust/schema/Type.adoc[]
 
-include::api-ref::partial$rust/schema/RootThingType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/RootThingType.adoc[]
 
-include::api-ref::partial$rust/schema/ThingType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/ThingType.adoc[]
 
-include::api-ref::partial$rust/schema/Trait_ThingTypeAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Trait_ThingTypeAPI.adoc[]
 
-include::api-ref::partial$rust/schema/EntityType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/EntityType.adoc[]
 
-include::api-ref::partial$rust/schema/Trait_EntityTypeAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Trait_EntityTypeAPI.adoc[]
 
-include::api-ref::partial$rust/schema/RelationType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/RelationType.adoc[]
 
-include::api-ref::partial$rust/schema/Trait_RelationTypeAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Trait_RelationTypeAPI.adoc[]
 
-include::api-ref::partial$rust/schema/RoleType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/RoleType.adoc[]
 
-include::api-ref::partial$rust/schema/Trait_RoleTypeAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Trait_RoleTypeAPI.adoc[]
 
-include::api-ref::partial$rust/schema/AttributeType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/AttributeType.adoc[]
 
-include::api-ref::partial$rust/schema/Trait_AttributeTypeAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Trait_AttributeTypeAPI.adoc[]
 
-include::api-ref::partial$rust/schema/Annotation.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Annotation.adoc[]
 
-include::api-ref::partial$rust/schema/Transitivity.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/Transitivity.adoc[]
 
-include::api-ref::partial$rust/schema/ValueType.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/ValueType.adoc[]
 
-include::api-ref::partial$rust/schema/ScopedLabel.adoc[]
+include::{page-component-version}@api-ref::partial$rust/schema/ScopedLabel.adoc[]
 
 [#_data_header]
 == Data
 
-include::api-ref::partial$rust/data/Thing.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Thing.adoc[]
 
-include::api-ref::partial$rust/data/Trait_ThingAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Trait_ThingAPI.adoc[]
 
-include::api-ref::partial$rust/data/Entity.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Entity.adoc[]
 
-include::api-ref::partial$rust/data/Relation.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Relation.adoc[]
 
-include::api-ref::partial$rust/data/Attribute.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Attribute.adoc[]
 
-include::api-ref::partial$rust/data/Value.adoc[]
+include::{page-component-version}@api-ref::partial$rust/data/Value.adoc[]
 
 [#_logic_header]
 == Logic
 
-include::api-ref::partial$rust/logic/LogicManager.adoc[]
+include::{page-component-version}@api-ref::partial$rust/logic/LogicManager.adoc[]
 
-include::api-ref::partial$rust/logic/Rule.adoc[]
+include::{page-component-version}@api-ref::partial$rust/logic/Rule.adoc[]
 
-include::api-ref::partial$rust/logic/Trait_RuleAPI.adoc[]
+include::{page-component-version}@api-ref::partial$rust/logic/Trait_RuleAPI.adoc[]
 
 [#_errors_header]
 == Errors
 
-include::api-ref::partial$rust/errors/SchemaException.adoc[]
+include::{page-component-version}@api-ref::partial$rust/errors/SchemaException.adoc[]
 
-include::api-ref::partial$rust/errors/Error.adoc[]
+include::{page-component-version}@api-ref::partial$rust/errors/Error.adoc[]
 
-include::api-ref::partial$rust/errors/ConnectionError.adoc[]
+include::{page-component-version}@api-ref::partial$rust/errors/ConnectionError.adoc[]
 
-include::api-ref::partial$rust/errors/InternalError.adoc[]
+include::{page-component-version}@api-ref::partial$rust/errors/InternalError.adoc[]

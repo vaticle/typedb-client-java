@@ -2,122 +2,122 @@
 [#_connection_header]
 == Connection
 
-include::api-ref::partial$cpp/connection/Driver.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/Driver.adoc[]
 
-include::api-ref::partial$cpp/connection/Credential.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/Credential.adoc[]
 
-include::api-ref::partial$cpp/connection/DatabaseManager.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/DatabaseManager.adoc[]
 
-include::api-ref::partial$cpp/connection/Database.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/Database.adoc[]
 
-include::api-ref::partial$cpp/connection/ReplicaInfo.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/ReplicaInfo.adoc[]
 
-include::api-ref::partial$cpp/connection/UserManager.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/UserManager.adoc[]
 
-include::api-ref::partial$cpp/connection/User.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/connection/User.adoc[]
 
 [#_session_header]
 == Session
 
-include::api-ref::partial$cpp/session/Session.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/session/Session.adoc[]
 
-include::api-ref::partial$cpp/session/SessionType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/session/SessionType.adoc[]
 
-include::api-ref::partial$cpp/session/Options.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/session/Options.adoc[]
 
 [#_transaction_header]
 == Transaction
 
-include::api-ref::partial$cpp/transaction/Transaction.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/transaction/Transaction.adoc[]
 
-include::api-ref::partial$cpp/transaction/TransactionType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/transaction/TransactionType.adoc[]
 
-include::api-ref::partial$cpp/transaction/QueryManager.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/transaction/QueryManager.adoc[]
 
 [#_answer_header]
 == Answer
 
-include::api-ref::partial$cpp/answer/ConceptMapGroup.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/ConceptMapGroup.adoc[]
 
-include::api-ref::partial$cpp/answer/ConceptMap.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/ConceptMap.adoc[]
 
-include::api-ref::partial$cpp/answer/ValueGroup.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/ValueGroup.adoc[]
 
-include::api-ref::partial$cpp/answer/JSON.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/JSON.adoc[]
 
-include::api-ref::partial$cpp/answer/JSONType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/JSONType.adoc[]
 
-include::api-ref::partial$cpp/answer/OwnerAttributePair.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/OwnerAttributePair.adoc[]
 
-include::api-ref::partial$cpp/answer/Explainables.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Explainables.adoc[]
 
-include::api-ref::partial$cpp/answer/Explainable.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Explainable.adoc[]
 
-include::api-ref::partial$cpp/answer/Explanation.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Explanation.adoc[]
 
-include::api-ref::partial$cpp/answer/Future.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Future.adoc[]
 
-include::api-ref::partial$cpp/answer/Iterable.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Iterable.adoc[]
 
-include::api-ref::partial$cpp/answer/Iterator.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/Iterator.adoc[]
 
-include::api-ref::partial$cpp/answer/typedefs.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/answer/typedefs.adoc[]
 
 [#_concept_header]
 == Concept
 
-include::api-ref::partial$cpp/concept/ConceptManager.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/concept/ConceptManager.adoc[]
 
-include::api-ref::partial$cpp/concept/Concept.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/concept/Concept.adoc[]
 
-include::api-ref::partial$cpp/concept/ConceptType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/concept/ConceptType.adoc[]
 
-include::api-ref::partial$cpp/concept/Transitivity.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/concept/Transitivity.adoc[]
 
 [#_schema_header]
 == Schema
 
-include::api-ref::partial$cpp/schema/Type.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/Type.adoc[]
 
-include::api-ref::partial$cpp/schema/ThingType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/ThingType.adoc[]
 
-include::api-ref::partial$cpp/schema/EntityType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/EntityType.adoc[]
 
-include::api-ref::partial$cpp/schema/RelationType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/RelationType.adoc[]
 
-include::api-ref::partial$cpp/schema/RoleType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/RoleType.adoc[]
 
-include::api-ref::partial$cpp/schema/AttributeType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/AttributeType.adoc[]
 
-include::api-ref::partial$cpp/schema/Annotation.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/Annotation.adoc[]
 
-//include::api-ref::partial$cpp/schema/Transitivity.adoc[]
+//include::{page-component-version}@api-ref::partial$cpp/schema/Transitivity.adoc[]
 
-include::api-ref::partial$cpp/schema/ValueType.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/schema/ValueType.adoc[]
 
-//include::api-ref::partial$cpp/schema/ScopedLabel.adoc[]
+//include::{page-component-version}@api-ref::partial$cpp/schema/ScopedLabel.adoc[]
 
 [#_data_header]
 == Data
 
-include::api-ref::partial$cpp/data/Thing.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/data/Thing.adoc[]
 
-include::api-ref::partial$cpp/data/Entity.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/data/Entity.adoc[]
 
-include::api-ref::partial$cpp/data/Relation.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/data/Relation.adoc[]
 
-include::api-ref::partial$cpp/data/Attribute.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/data/Attribute.adoc[]
 
-include::api-ref::partial$cpp/data/Value.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/data/Value.adoc[]
 
 [#_logic_header]
 == Logic
 
-include::api-ref::partial$cpp/logic/LogicManager.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/logic/LogicManager.adoc[]
 
-include::api-ref::partial$cpp/logic/Rule.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/logic/Rule.adoc[]
 
 [#_errors_header]
 == Errors
 
-include::api-ref::partial$cpp/errors/DriverException.adoc[]
+include::{page-component-version}@api-ref::partial$cpp/errors/DriverException.adoc[]

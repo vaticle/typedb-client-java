@@ -2,112 +2,112 @@
 [#_connection_header]
 == Connection
 
-include::api-ref::partial$nodejs/connection/TypeDB.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/TypeDB.adoc[]
 
-include::api-ref::partial$nodejs/connection/TypeDBDriver.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/TypeDBDriver.adoc[]
 
-include::api-ref::partial$nodejs/connection/TypeDBCredential.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/TypeDBCredential.adoc[]
 
-include::api-ref::partial$nodejs/connection/DatabaseManager.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/DatabaseManager.adoc[]
 
-include::api-ref::partial$nodejs/connection/Database.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/Database.adoc[]
 
-include::api-ref::partial$nodejs/connection/Replica.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/Replica.adoc[]
 
-include::api-ref::partial$nodejs/connection/UserManager.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/UserManager.adoc[]
 
-include::api-ref::partial$nodejs/connection/User.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/connection/User.adoc[]
 
 [#_session_header]
 == Session
 
-include::api-ref::partial$nodejs/session/TypeDBSession.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/session/TypeDBSession.adoc[]
 
-include::api-ref::partial$nodejs/session/SessionType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/session/SessionType.adoc[]
 
-include::api-ref::partial$nodejs/session/TypeDBOptions.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/session/TypeDBOptions.adoc[]
 
-include::api-ref::partial$nodejs/session/Opts.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/session/Opts.adoc[]
 
 [#_transaction_header]
 == Transaction
 
-include::api-ref::partial$nodejs/transaction/TypeDBTransaction.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/transaction/TypeDBTransaction.adoc[]
 
-include::api-ref::partial$nodejs/transaction/TransactionType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/transaction/TransactionType.adoc[]
 
-include::api-ref::partial$nodejs/transaction/QueryManager.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/transaction/QueryManager.adoc[]
 
 [#_answer_header]
 == Answer
 
-include::api-ref::partial$nodejs/answer/ConceptMapGroup.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/ConceptMapGroup.adoc[]
 
-include::api-ref::partial$nodejs/answer/ConceptMap.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/ConceptMap.adoc[]
 
-include::api-ref::partial$nodejs/answer/Stream_T_.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/Stream_T_.adoc[]
 
-include::api-ref::partial$nodejs/answer/ValueGroup.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/ValueGroup.adoc[]
 
-include::api-ref::partial$nodejs/answer/Explainables.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/Explainables.adoc[]
 
-include::api-ref::partial$nodejs/answer/Explainable.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/Explainable.adoc[]
 
-include::api-ref::partial$nodejs/answer/Explanation.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/answer/Explanation.adoc[]
 
 [#_concept_header]
 == Concept
 
-include::api-ref::partial$nodejs/concept/ConceptManager.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/concept/ConceptManager.adoc[]
 
-include::api-ref::partial$nodejs/concept/Concept.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/concept/Concept.adoc[]
 
 [#_schema_header]
 == Schema
 
-include::api-ref::partial$nodejs/schema/Type.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/Type.adoc[]
 
-include::api-ref::partial$nodejs/schema/Label.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/Label.adoc[]
 
-include::api-ref::partial$nodejs/schema/ThingType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/ThingType.adoc[]
 
-include::api-ref::partial$nodejs/schema/EntityType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/EntityType.adoc[]
 
-include::api-ref::partial$nodejs/schema/RelationType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/RelationType.adoc[]
 
-include::api-ref::partial$nodejs/schema/RoleType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/RoleType.adoc[]
 
-include::api-ref::partial$nodejs/schema/AttributeType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/AttributeType.adoc[]
 
-include::api-ref::partial$nodejs/schema/Annotation.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/Annotation.adoc[]
 
-include::api-ref::partial$nodejs/schema/Transitivity.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/Transitivity.adoc[]
 
-include::api-ref::partial$nodejs/schema/ValueType.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/schema/ValueType.adoc[]
 
 [#_data_header]
 == Data
 
-include::api-ref::partial$nodejs/data/Thing.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/data/Thing.adoc[]
 
-include::api-ref::partial$nodejs/data/Entity.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/data/Entity.adoc[]
 
-include::api-ref::partial$nodejs/data/Relation.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/data/Relation.adoc[]
 
-include::api-ref::partial$nodejs/data/Attribute.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/data/Attribute.adoc[]
 
-include::api-ref::partial$nodejs/data/Value.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/data/Value.adoc[]
 
 [#_logic_header]
 == Logic
 
-include::api-ref::partial$nodejs/logic/LogicManager.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/logic/LogicManager.adoc[]
 
-include::api-ref::partial$nodejs/logic/Rule.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/logic/Rule.adoc[]
 
 [#_errors_header]
 == Errors
 
-include::api-ref::partial$nodejs/errors/TypeDBDriverError.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/errors/TypeDBDriverError.adoc[]
 
-include::api-ref::partial$nodejs/errors/ErrorMessage.adoc[]
+include::{page-component-version}@api-ref::partial$nodejs/errors/ErrorMessage.adoc[]

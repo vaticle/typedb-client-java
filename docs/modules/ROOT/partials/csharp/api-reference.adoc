@@ -2,116 +2,116 @@
 [#_connection_header]
 == Connection
 
-include::api-ref::partial$csharp/connection/Drivers.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/Drivers.adoc[]
 
-include::api-ref::partial$csharp/connection/ITypeDBDriver.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/ITypeDBDriver.adoc[]
 
-include::api-ref::partial$csharp/connection/TypeDBCredential.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/TypeDBCredential.adoc[]
 
-include::api-ref::partial$csharp/connection/IDatabaseManager.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/IDatabaseManager.adoc[]
 
-include::api-ref::partial$csharp/connection/IDatabase.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/IDatabase.adoc[]
 
-include::api-ref::partial$csharp/connection/IReplica.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/IReplica.adoc[]
 
-include::api-ref::partial$csharp/connection/IUserManager.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/IUserManager.adoc[]
 
-include::api-ref::partial$csharp/connection/IUser.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/connection/IUser.adoc[]
 
 [#_session_header]
 == Session
 
-include::api-ref::partial$csharp/session/ITypeDBSession.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/session/ITypeDBSession.adoc[]
 
-include::api-ref::partial$csharp/session/SessionType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/session/SessionType.adoc[]
 
-include::api-ref::partial$csharp/session/TypeDBOptions.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/session/TypeDBOptions.adoc[]
 
 [#_transaction_header]
 == Transaction
 
-include::api-ref::partial$csharp/transaction/ITypeDBTransaction.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/transaction/ITypeDBTransaction.adoc[]
 
-include::api-ref::partial$csharp/transaction/TransactionType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/transaction/TransactionType.adoc[]
 
-include::api-ref::partial$csharp/transaction/IQueryManager.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/transaction/IQueryManager.adoc[]
 
 [#_answer_header]
 == Answer
 
-include::api-ref::partial$csharp/answer/IConceptMap.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IConceptMap.adoc[]
 
-include::api-ref::partial$csharp/answer/IConceptMapGroup.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IConceptMapGroup.adoc[]
 
-include::api-ref::partial$csharp/answer/IValueGroup.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IValueGroup.adoc[]
 
-// include::api-ref::partial$csharp/answer/JSON.adoc[]
+// include::{page-component-version}@api-ref::partial$csharp/answer/JSON.adoc[]
 
-// include::api-ref::partial$csharp/answer/JSONType.adoc[]
+// include::{page-component-version}@api-ref::partial$csharp/answer/JSONType.adoc[]
 
-include::api-ref::partial$csharp/answer/IExplainables.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IExplainables.adoc[]
 
-include::api-ref::partial$csharp/answer/IExplainable.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IExplainable.adoc[]
 
-include::api-ref::partial$csharp/answer/IExplanation.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/IExplanation.adoc[]
 
-include::api-ref::partial$csharp/answer/Promise__T__.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/Promise__T__.adoc[]
 
-include::api-ref::partial$csharp/answer/VoidPromise.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/answer/VoidPromise.adoc[]
 
 [#_concept_header]
 == Concept
 
-include::api-ref::partial$csharp/concept/IConceptManager.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/concept/IConceptManager.adoc[]
 
-include::api-ref::partial$csharp/concept/IConcept.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/concept/IConcept.adoc[]
 
-include::api-ref::partial$csharp/concept/Transitivity.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/concept/Transitivity.adoc[]
 
 [#_schema_header]
 == Schema
 
-include::api-ref::partial$csharp/schema/IType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IType.adoc[]
 
-include::api-ref::partial$csharp/schema/IThingType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IThingType.adoc[]
 
-include::api-ref::partial$csharp/schema/IEntityType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IEntityType.adoc[]
 
-include::api-ref::partial$csharp/schema/IRelationType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IRelationType.adoc[]
 
-include::api-ref::partial$csharp/schema/IRoleType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IRoleType.adoc[]
 
-include::api-ref::partial$csharp/schema/IAttributeType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/IAttributeType.adoc[]
 
-include::api-ref::partial$csharp/schema/Annotation.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/Annotation.adoc[]
 
-include::api-ref::partial$csharp/schema/Label.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/schema/Label.adoc[]
 
 [#_data_header]
 == Data
 
-include::api-ref::partial$csharp/data/IThing.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/IThing.adoc[]
 
-include::api-ref::partial$csharp/data/IEntity.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/IEntity.adoc[]
 
-include::api-ref::partial$csharp/data/IRelation.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/IRelation.adoc[]
 
-include::api-ref::partial$csharp/data/IAttribute.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/IAttribute.adoc[]
 
-include::api-ref::partial$csharp/data/IValue.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/IValue.adoc[]
 
-include::api-ref::partial$csharp/data/ValueType.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/ValueType.adoc[]
 
-include::api-ref::partial$csharp/data/ValueTypeExtensions.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/data/ValueTypeExtensions.adoc[]
 
 [#_logic_header]
 == Logic
 
-include::api-ref::partial$csharp/logic/ILogicManager.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/logic/ILogicManager.adoc[]
 
-include::api-ref::partial$csharp/logic/IRule.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/logic/IRule.adoc[]
 
 [#_errors_header]
 == Errors
 
-include::api-ref::partial$csharp/errors/TypeDBDriverException.adoc[]
+include::{page-component-version}@api-ref::partial$csharp/errors/TypeDBDriverException.adoc[]
